@@ -7,12 +7,17 @@ This list collects ways to implement typical JavaScript features without JavaScr
 
 ### Lightbox
 
-The CSS `:target` Selector can be used to implement a CSS-only lightbox.
+The `:target` pseudo selector can be used to implement a CSS-only lightbox.
 
 Browser compatibility: All modern browsers and IE9+ (see [caniuse](https://caniuse.com/?search=%3Atarget))  
 See: https://developer.mozilla.org/en-US/docs/Web/CSS/:target#pure-css_lightbox
 
+### Accordion
 
+Checkboxes store a boolean state, therefore they can be used to implement CSS-only accordions using the `:checked` pseudo selector.
+
+Browser compatibility: All modern browsers and IE9+ (see [caniuse](https://caniuse.com/?search=%3Achecked))  
+See: https://codepen.io/raubaca/pen/PZzpVe
 
 ## Addendum: Reduce jQuery
 
