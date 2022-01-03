@@ -19,6 +19,13 @@ Checkboxes store a boolean state, therefore they can be used to implement CSS-on
 Browser compatibility: All modern browsers and IE9+ (see [caniuse](https://caniuse.com/?search=%3Achecked))  
 See: https://codepen.io/raubaca/pen/PZzpVe
 
+### Tabs
+
+Similarly to the accordion, we can use the `:checked` pseudo selector and flexbox to create tabs.
+
+Browser compatibility: All modern browsers and IE11 (see [caniuse](https://caniuse.com/flexbox))  
+See: https://codepen.io/vulpesigni/pen/yyZYNy
+
 ## Addendum: Reduce jQuery
 
 jQuery is a popular JS framework used on millions of websites. When used incorrectly, it can increase loading times by quite a lot!
